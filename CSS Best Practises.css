@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.tittle{
+    width: 100%;
+    height: 24px;  
+    border: 2px lavender solid;
+    margin-bottom: 24px; 
+  }
+
+.container{
+    border: 5px lavender solid;
+    padding: 24px;
+}
+
+.box{
+    border: 4px lavender solid;
+    height: 100px;
+    width: calc(100 / 3);
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: center;
+}
